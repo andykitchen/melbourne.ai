@@ -1,0 +1,106 @@
+/* Custom styling for melbourne ai
+By LAURA FREAKING AWESOME SUMMERS */
+
+body {
+  background: #a8544b url(../img/melbourne-ai.jpg) no-repeat center center fixed; 
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+main{
+  min-height: 100vh; 
+  margin: 0 auto -50px;
+}
+
+.block.block-fill-height{
+  height: 100vh;
+  position: static;
+}
+
+footer{
+  color: #fff;
+  height: 50px;
+  margin: 0 auto;
+  font-family: 'Shadows Into Light Two', cursive;
+  z-index: 100000;
+}
+
+footer p{
+  text-align: center;
+}
+
+.block-inverse .h1, .block-inverse h1,
+.block-inverse .h2, .block-inverse h2,
+.form-control, input, textarea, keygen, select, button  {
+  font-family: 'Bungee', cursive;
+}
+
+.block-inverse .h3, .block-inverse h3,
+.block-inverse .h4, .block-inverse h4{
+  font-family: 'Shadows Into Light Two', cursive;
+}
+
+.h3, h3{ font-size: 32px; }
+.h4, h4{ font-size: 24px; }
+
+.h1, h1, .h2, h2, .h3, h3, .h4, h4, .h5, h5, .h6, h6, footer{
+	text-shadow: 0px 0px 15px rgba(55, 28, 25, 0.5);
+}
+
+.btn{
+	text-shadow: 0px 0px 1px rgba(69, 157, 168, 0.5);
+}
+
+
+input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #4aa3ba;
+}
+input::-moz-placeholder { /* Firefox 19+ */
+  color: #4aa3ba;
+}
+input:-ms-input-placeholder { /* IE 10+ */
+  color: #4aa3ba;
+}
+input:-moz-placeholder { /* Firefox 18- */
+  color: #4aa3ba;
+}
+
+.block{
+	padding: 60px 10px;
+}
+
+@media all and (min-width: 340px){
+	.block{
+		padding: 60px 20px;
+	}
+}
+
+@media all and (min-width: 400px){
+	.block{
+		padding: 60px 30px;
+	}
+}
+
+
+.block-inverse, .block-inverse .block-bg-img {
+  background-color: transparent !important;
+}
+
+a, a:link, a:visited{ color: #4cadba; }
+a:hover, a:focus{ color: #56c4d3; text-decoration: underline; }
+
+.btn-primary{
+	background-color: #4cadba;
+    border-color: #459da8;
+}
+
+.btn-primary.active, .btn-primary:active, .btn-primary:hover, .open>.dropdown-toggle.btn-primary{
+    background-color: #56c4d3;
+    border-color: #4cadba;
+}
+
+.form-control:focus{
+	border-color: #4aa3ba;
+}

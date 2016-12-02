@@ -1,0 +1,14 @@
+/* Custom styling for melbourne ai
+By LAURA FREAKING AWESOME SUMMERS */
+
+html{
+  background: url(img/melbourne-ai.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.block-inverse .block-bg-img {
+  background-color: #1a8fc6 !important;
+}
